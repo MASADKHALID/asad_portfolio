@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.line{
+    margin: 15px;
+    height: 1px;
+    width: auto;
+    background-color: #D0D4CA;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(214, 135, 135);
+    font-size: 18px;
+}
+.left{
+    font-size: 2rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.firstSection div{
+    width: 40%;
+}
+.rightSection img{
+    height: 300px;
+    width: 450px;
+    margin: 20px;
+}
+.color{
+    color: rgb(214, 135, 135);
+}
+#pl,#expertise,#parttime{
+    color: rgb(214, 135, 135);
+}
+/*skills*/
+.mainCantainer{
+    margin: 60px;
+    display:flex;
+}
+.secondSection h1{
+    margin-left: 60px;
+    text-align: left;
+    font-size:larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #B799FF;
+}
+.mainCantainer1{
+    width:400px;
+}
+.mainCantainer2{
+    margin: 60px;
+    width:400px;
+}
+.skill-bar {
+    margin: 10px 0;
+}
+.skill-bar .skill {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.bar {
+    background-color: #ddd;
+    border-radius: 25px;
+    padding: 3px;
+    position: relative;
+}
+.bar div {
+    height: 25px;
+    border-radius: 25px;
+    line-height: 25px;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.python { width: 90%; background-color: #3A6D8C; }
+.java { width: 80%; background-color: #0B2F9F; }
+.cpp { width: 40%; background-color: #ff9800; }
+.sql { width: 85%; background-color: #BFDB38; }
+.powerbi { width: 75%; background-color: #B799FF; }
+.figma { width: 60%; background-color: #29C6CD; }
+.html { width: 95%; background-color: #7776B3; }
+.css { width: 90%; background-color: #4D6DE3; }
+.data-engineering { width: 80%; background-color: #4F6F52; }
+/*work experience*/
+
+
+.thirdSection h1{
+    margin-left: 60px;
+    text-align: left;
+    font-size:larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #B799FF;
+}
+
+.experienceLine{
+    margin: 60px;
+    height: 1px;
+    width:1004px;
+    background-color: #ffc461;
+    display: flex;
+}
+.experienceLine .start{
+    width: 1px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: -9px;
+}
+.experienceLine .end{
+    width: 1px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: -9px;
+    right: -100px;
+}
+.jobYear{
+    width: 1px;
+    height: 40px;
+    background-color: white;
+    margin: 0 120px;
+}
+.jobYear img{
+    height: 50px;
+    width: 60px;
+    position: relative;
+    top: -52px;
+    left: -28px;
+}
+.jobYear .organization{
+    position: relative;
+    top: -6px;
+    left: -84px;
+    width: 300px;
+}
+.jobYear .year{
+    position: relative;
+    top: -6px;
+    left: -84px;
+    width: 200px;
+}
+
+
+.jobYear .desc{
+    position: relative;
+    left: -86px;
+    color: gray;
+    width: 213px;
+    font-size: 9px;
+}
+/*PROJECTS*/
+/*
+.forthSection{
+    margin-top: 150px;
+}
+.forthSection h1{
+    margin-top: auto;
+    margin-left: 60px;
+    text-align: left;
+    font-size:larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #B799FF;
+}
+.cantainer{
+    display: flex;
+    margin-left: 60px;
+    position: relative;
+    overflow: hidden;
+}
+.box{
+    background-color:white;
+    height: 200px;
+    width: 200px;     
+    margin: 10px;
+    border: 2px solid purple;
+    position: relative;
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.forthSection .cantainer .box .description {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: bottom 0.4s ease-in-out;
+    font-size: 14px;
+
+}
+
+.forthSection .cantainer .box .description button {
+    border: none;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: auto;
+}
+
+.forthSection .cantainer .box:hover .description {
+    bottom: 0; 
+}
+*/
+.forthSection h1{
+    margin-top: auto;
+    margin-left: 60px;
+    text-align: left;
+    font-size:larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #B799FF;
+}
+.forthSection .cantainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.forthSection .cantainer .box {
+    background-color: white;
+    height: 200px;
+    width:250px;
+    margin: 10px;
+    border: 2px solid purple;
+    position: relative;
+    overflow: hidden;
+}
+
+.forthSection .cantainer .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.forthSection .cantainer .box .description {
+    position: absolute;
+    bottom: -100%; /* Initially hidden below the box */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: bottom 0.4s ease-in-out;
+    font-size: 12px;
+}
+
+.forthSection .cantainer .box:hover .description {
+    bottom: 0; /* Slides up inside the box on hover */
+}
+
+.forthSection .cantainer .box .description button {
+    border: none;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: auto;
+}
+
+
+/*certificates*/
+.fifthSection h1{
+    margin-left: 60px;
+    text-align: left;
+    font-size:larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #B799FF;
+}
+
+.fifthSection .cantainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.fifthSection .cantainer .box {
+    background-color: white;
+    height: 200px;
+    width:250px;
+    margin: 10px;
+    border: 2px solid purple;
+    position: relative;
+    overflow: hidden;
+}
+
+.fifthSection .cantainer .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.fifthSection .cantainer .box .description {
+    position: absolute;
+    bottom: -100%; /* Start hidden below the box */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: bottom 0.4s ease-in-out;
+    font-size: 14px;
+}
+
+.fifthSection .cantainer .box:hover .description {
+    bottom: 0; /* Moves up inside the box on hover */
+}
+
+
