@@ -120,6 +120,13 @@ nav ul li a:hover{
     color: #B799FF;
 }
 
+.thirdSection .Cantainer{
+    display: flex;
+    justify-content: center;
+    height: 220px;
+    
+}
+
 .experienceLine{
     margin: 60px;
     height: 1px;
@@ -140,7 +147,7 @@ nav ul li a:hover{
     background-color: white;
     position: relative;
     top: -9px;
-    right: -100px;
+    right: -38px;
 }
 .jobYear{
     width: 1px;
@@ -351,5 +358,148 @@ nav ul li a:hover{
 .fifthSection .cantainer .box:hover .description {
     bottom: 0; /* Moves up inside the box on hover */
 }
+/*Tech Stack*/
+.sixthSection h1{
+    margin-left: 60px;
+    text-align: left;
+    font-size:larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #B799FF;
+}
 
+.sixthSection .main{
+    height: 600px;
+    padding-top: 20px;
+
+}
+.sixthSection .main .row1,
+.sixthSection .main .row2,
+.sixthSection .main .row3,
+.sixthSection .main .row4,
+.sixthSection .main .row5,
+.sixthSection .main .row6{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 600px;
+    
+}
+
+.sixthSection .main .row1 .box,
+.sixthSection .main .row2 .box,
+.sixthSection .main .row3 .box,
+.sixthSection .main .row4 .box,
+.sixthSection .main .row5 .box,
+.sixthSection .main .row6 .box{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border-radius: 5px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    border: 1px solid blck;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sixthSection .main .row1 .box:hover,
+.sixthSection .main .row2 .box:hover,
+.sixthSection .main .row3 .box:hover,
+.sixthSection .main .row4 .box:hover,
+.sixthSection .main .row5 .box:hover,
+.sixthSection .main .row6 .box:hover{
+    transform: scale(1.2);
+
+}
+
+.sixthSection .main .row1 .box img,
+.sixthSection .main .row2 .box img,
+.sixthSection .main .row3 .box img,
+.sixthSection .main .row4 .box img,
+.sixthSection .main .row5 .box img,
+.sixthSection .main .row6 .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+
+
+/*top change +29*/
+.sixthSection .main .row1{
+    position: relative;
+    top: 10px;
+    left:357px;
+    
+}
+
+.sixthSection .main .row2{
+    position: relative;
+    top: -17px;
+    left:357px;
+}
+
+
+.sixthSection .main .row3{
+    position: relative;
+    top: -44px;
+    left:357px;
+
+}
+
+.sixthSection .main .row4{
+    position: relative;
+    top: -71px;
+    left:357px;
+}
+
+.sixthSection .main .row5{
+    position: relative;
+    top: -98px;
+    left:357px;
+}
+
+.sixthSection .main .row6{
+    position: relative;
+    top: -125px;
+    left:357px;
+}
+
+/*social media links*/
+.seventhSection h1{
+    margin-left: 60px;
+    text-align: left;
+    font-size:larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #B799FF;
+}
+
+.seventhSection .cantainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 20px;
+}
+
+.seventhSection .cantainer .box{
+    height:100px;
+    width: 100px;
+    border: 1px solid black;
+    transition: transform 0.3s ease-in-out;
+}
+
+.seventhSection .cantainer .box i{
+    font-size: 100px;
+}
+
+.seventhSection .cantainer .box:hover{
+    transform: scale(1.2);
+}
+
+
+.fa-envelope { color: #DB4437; }  /* Red for Gmail */
+.fa-facebook { color: #1877F2; } /* Blue for Facebook */
+.fa-twitter { color: #1DA1F2; }  /* Blue for Twitter */
+.fa-instagram { color: #E4405F; } /* Pink for Instagram */
+.fa-linkedin { color: #0A66C2; }  /* Blue for LinkedIn */
+.fa-github { color: #333; }   
 
